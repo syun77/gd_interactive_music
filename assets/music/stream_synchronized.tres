@@ -1,0 +1,14 @@
+[gd_resource type="AudioStreamSynchronized" load_steps=4 format=3 uid="uid://c5ektfy6nl5r6"]
+
+[ext_resource type="AudioStream" uid="uid://bo2rpysmtxxv6" path="res://assets/music/stem_drum_bass.wav" id="1_ok2x3"]
+[ext_resource type="AudioStream" uid="uid://dqi7bteycusvr" path="res://assets/music/stem_drum2.wav" id="2_b1bfg"]
+[ext_resource type="AudioStream" uid="uid://c8skm0iljxyb" path="res://assets/music/stem_lead.wav" id="3_btijg"]
+
+[resource]
+stream_count = 3
+stream_0/stream = ExtResource("1_ok2x3")
+stream_0/volume = 0.0
+stream_1/stream = ExtResource("2_b1bfg")
+stream_1/volume = 0.0
+stream_2/stream = ExtResource("3_btijg")
+stream_2/volume = 0.0

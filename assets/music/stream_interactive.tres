@@ -1,0 +1,13 @@
+[gd_resource type="AudioStreamInteractive" load_steps=3 format=3 uid="uid://cyquu1pkrogm0"]
+
+[ext_resource type="AudioStream" uid="uid://cwl4umbuwunsi" path="res://assets/music/intro.wav" id="1_u2pip"]
+[ext_resource type="AudioStream" uid="uid://bwwgt8hcr2t4" path="res://assets/music/main.wav" id="2_8uq2v"]
+
+[resource]
+clip_count = 2
+clip_0/name = &"Intro"
+clip_0/stream = ExtResource("1_u2pip")
+clip_0/auto_advance = 2
+clip_1/name = &"Main"
+clip_1/stream = ExtResource("2_8uq2v")
+clip_1/auto_advance = 2
